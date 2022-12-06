@@ -1,12 +1,31 @@
 import 'dart:io';
 
 import 'package:testingtesting/src/Counter.dart';
+import 'package:testingtesting/src/Parrot.dart';
+import 'package:testingtesting/src/android_developer.dart';
+import 'package:testingtesting/src/animal.dart';
 import 'package:testingtesting/src/atm.dart';
+import 'package:testingtesting/src/cat.dart';
+import 'package:testingtesting/src/company.dart';
+import 'package:testingtesting/src/dog.dart';
+import 'package:testingtesting/src/flutter_developer.dart';
+import 'package:testingtesting/src/parrot_kid.dart';
 import 'package:testingtesting/src/student.dart';
 
 void main() {
 
- var student = Student("Eslam", 27);
+  var flutterDeveloper = FlutterDeveloper();
+  flutterDeveloper.netSalary();
+  flutterDeveloper.workingHours();
+  flutterDeveloper.daysOff();
+  flutterDeveloper.benefits();
+
+
+  var androidDeveloper = AndroidDeveloper();
+  androidDeveloper.netSalary();
+  androidDeveloper.workingHours();
+  androidDeveloper.daysOff();
+  androidDeveloper.benefits();
 
 }
 

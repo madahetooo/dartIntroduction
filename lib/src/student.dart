@@ -2,10 +2,7 @@ class Student {
   var name = "";
   var age = 0;
 
-  Student(String name, int age) {
-    this.name = name;
-    this.age = age;
-    
+  Student(this.name, this.age) {
     print("your name is $name, and age is $age");
   }
 }

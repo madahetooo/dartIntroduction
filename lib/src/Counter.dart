@@ -1,6 +1,6 @@
 class Counter{
 
-  static var count = 0;
+   static var count = 0;
 
   Counter(){
     count++; // increment by one

@@ -1,6 +1,9 @@
 import 'dart:io';
 
 class ATM {
+  ATM(String nameOfBank, int codeOfBank){
+    print("The name of the bank is $nameOfBank, and the code is $codeOfBank");
+  }
   var pinCode = 0;
   var balance = 0;
   var userChoice = 0;
@@ -74,10 +77,6 @@ class ATM {
       }
     }
 
-  }
-
-  ATM(String nameOfBank, int codeOfBank){
-    print("The name of the bank is $nameOfBank, and the code is $codeOfBank");
   }
 
 
