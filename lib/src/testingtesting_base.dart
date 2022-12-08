@@ -13,27 +13,37 @@ import 'package:testingtesting/src/parrot_kid.dart';
 import 'package:testingtesting/src/student.dart';
 
 void main() {
-
-  var flutterDeveloper = FlutterDeveloper();
-  flutterDeveloper.netSalary();
-  flutterDeveloper.workingHours();
-  flutterDeveloper.daysOff();
-  flutterDeveloper.benefits();
-
-
-  var androidDeveloper = AndroidDeveloper();
-  androidDeveloper.netSalary();
-  androidDeveloper.workingHours();
-  androidDeveloper.daysOff();
-  androidDeveloper.benefits();
+  int x = 10;
+  int y = 2;
+  int res;
+  try {
+    res = x ~/ y;
+    print(res);
+  }
+  catch (e) {
+    print("Cannot Divide by Zero because of : $e");
+  }
+  finally{
+    print("this finally block will always executed");
+  }
 
 }
 
+// var flutterDeveloper = FlutterDeveloper();
+// flutterDeveloper.netSalary();
+// flutterDeveloper.workingHours();
+// flutterDeveloper.daysOff();
+// flutterDeveloper.benefits();
+//
+//
+// var androidDeveloper = AndroidDeveloper();
+// androidDeveloper.netSalary();
+// androidDeveloper.workingHours();
+// androidDeveloper.daysOff();
+// androidDeveloper.benefits();
 // var count = Counter();
 // var count2 = Counter();
 // var count3 = Counter();
-
-
 
 // var atm = ATM("CIB BANK ATM",234235);
 // atm.getUserInformation();
